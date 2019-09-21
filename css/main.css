@@ -4,3 +4,55 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* GENERAL STYLES */
+
+body {
+    color: #3C3744;
+    background: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+a {
+    text-decoration: none;
+    color: #3C3744;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 1.8;
+    text-transform: uppercase;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 17px;
+    line-height: 2;
+}
+
+/* NAV */
+
+nav {
+    float: right;
+    width: 80%;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+    text-align: right;
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 35px;
+    line-height: 1.5;
+}
+
+nav ul a {
+    text-transform: uppercase;
+    font-size: 14px;
+}
