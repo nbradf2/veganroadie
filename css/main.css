@@ -73,6 +73,15 @@ nav ul a {
     padding-bottom: 6px;
 }
 
+/* not sure of this */
+.row {
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 2%;
+}
+
 .logo {
     width: 8%;
     float: left;
@@ -81,7 +90,81 @@ nav ul a {
     margin-bottom: 10px;
 }
 
+/* NAV ANIMATION */
+
+.openNav {
+    max-height: 400px !important;
+}
+
+.openNav .mobileToggle {
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+}
+
+.sticky {
+    background-color: rgba(255, 255, 255, 0.93);
+    opacity: 1;
+    top: 0px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.mobileToggle {
+    /* display: none; */
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    right: 22px;
+    top: 0px;
+    width: 30px;
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+}
+
+.mobileToggle span {
+    width: 30px;
+    height: 4px;
+    margin-bottom: 6px;
+    border-radius: 1000px;
+    background: red;
+    display: block;
+}
+
 /* HERO */
+
+.hero {
+    position: relative;
+    background: url(../images/profileField.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    padding-top: 110px;
+    min-height: 500px;
+    letter-spacing: 2px;
+    height: 100vh;
+    color: white;
+    font-family: "Cardo", sans-serif;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero h1 span {
+    font-size: 25px;
+    color: #3C3744;
+    border-bottom: 2px solid;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 12px;
+    line-height: 3;
+}
+
+/* CONTENT */
+
+.content {
+    padding: 50px 2% 250px;
+}
 
 /* MEDIA QUERIES */
 
@@ -110,5 +193,9 @@ nav ul a {
 
     .logo {
         float: none;
+    }
+
+    .mobileToggle {
+        display: block;
     }
 }
