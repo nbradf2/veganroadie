@@ -44,6 +44,7 @@ nav ul {
     overflow: hidden;
     text-align: right;
     float: right;
+    margin-top: 1.5rem;
 }
 
 nav ul li {
@@ -109,7 +110,7 @@ nav ul a {
 }
 
 .mobileToggle {
-    /* display: none; */
+    display: none;
     cursor: pointer;
     font-size: 20px;
     position: absolute;
@@ -144,7 +145,7 @@ nav ul a {
     letter-spacing: 2px;
     height: 100vh;
     color: white;
-    font-family: "Cardo", sans-serif;
+    /* font-family: "Cardo", sans-serif; */
 }
 
 .hero h1 {
@@ -153,11 +154,16 @@ nav ul a {
 
 .hero h1 span {
     font-size: 25px;
-    color: #3C3744;
+    /* color: #3C3744; */
     border-bottom: 2px solid;
     font-family: "Montserrat", sans-serif;
     padding-bottom: 12px;
     line-height: 3;
+}
+
+.fa-chevron-down {
+    margin-top: 16rem;
+    font-size: 3rem;
 }
 
 /* CONTENT */

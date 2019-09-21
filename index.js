@@ -11,17 +11,17 @@ $(window).scroll(function() {
 //Mobile Nav
 
 $('.mobileToggle').click(function() {
-    if ($('.animHead').hasClass('open-nav')) {
-        $('.animHead').removeClass('open-nav');
+    if ($('.animHead').hasClass('openNav')) {
+        $('.animHead').removeClass('openNav');
     } else {
-        $('.animHead').addClass('open-nav');
+        $('.animHead').addClass('openNav');
     }
 });
 
 $('.animHead li a').click(function() {
-    if ($('.animHead').hasClass('.open-nav')) {
-        $('.navigation').removeClass('open-nav');
-        $('.animHead').removeClass('open-nav');
+    if ($('.animHead').hasClass('openNav')) {
+        $('.navigation').removeClass('openNav');
+        $('.animHead').removeClass('openNav');
     }
 })
 
